@@ -2132,7 +2132,6 @@ def voice_detection(
         "status": "success",
         "classification": classification,
         "confidenceScore": confidence,
-        "explanation": explanation,
     }
     _log_api_request_response(body.model_dump(), payload, 200)
     return payload
